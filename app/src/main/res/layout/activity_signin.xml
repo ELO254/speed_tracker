@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@drawable/custom2">
+        <TextView
+            android:id="@+id/txtsignin"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Speed Tracker click to login"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/usernameS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="username"
+            android:background="@drawable/custom2"
+            android:hint="username"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:padding="4dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/Semail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="enter email"
+            android:background="@drawable/custom2"
+            android:hint="email"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:padding="4dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/edtScontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="enter contact"
+            android:background="@drawable/custom2"
+            android:hint="contact"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:padding="4dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/edtcar_Splate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="car plate"
+            android:background="@drawable/custom2"
+            android:hint="car_plate"
+            android:drawableLeft="@drawable/baseline_directions_car_24"
+            android:padding="4dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/edtSPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="enter password"
+            android:background="@drawable/custom2"
+            android:hint="password"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:padding="4dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+        <EditText
+            android:id="@+id/edtSconfirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="enter password"
+            android:background="@drawable/custom2"
+            android:hint="password"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:padding="4dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"/>
+
+
+        <Button
+            android:id="@+id/btnSsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom2"
+            android:backgroundTint="@color/black"
+            android:padding="4dp"
+            android:text="sign in"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

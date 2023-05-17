@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457621998905",
+    "project_id": "elvisproject-b6430",
+    "storage_bucket": "elvisproject-b6430.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457621998905:android:bcb8af7193b2f045f56ce8",
+        "android_client_info": {
+          "package_name": "com.example.speedtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457621998905-esibth8q536m79mpl44v48dt0a2g5oc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHthe3mq2XIrE1SXN9doMD5T1G7e84cak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457621998905-esibth8q536m79mpl44v48dt0a2g5oc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
